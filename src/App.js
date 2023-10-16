@@ -33,6 +33,7 @@ function Header(props) {
 }
 
 function App() {
+
   const mode = 'WELCOME';
   const topics = [
     { id: 1, title: 'html', body: 'html is...' },
@@ -59,6 +60,8 @@ function App() {
       <Article title="welcome" body="hello"></Article>
     </div>
   );
+
+
 }
 
 export default App;
